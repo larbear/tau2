@@ -244,7 +244,8 @@ final class ViewTest extends TestCase
     {
         $view = new View();
         $view->registerHelper('ucfirst', function ($x) {
-            return ucfirst($x);        });
+            return ucfirst($x);
+        });
         $view->assign('name', 'variable');
         $s = $view->render('tests/views/helper');
         $this->expectOutputString("<div>Hello Variable!</div>");
