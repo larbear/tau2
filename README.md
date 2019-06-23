@@ -4,7 +4,7 @@ Tau library, version 2
 [![Build Status](https://travis-ci.com/theyak/tau2.svg?branch=master)](https://travis-ci.com/theyak/tau2)
 [![codecov.io](https://codecov.io/github/theyak/tau2/coverage.svg?branch=master)](https://codecov.io/github/theyak/tau2?branch=master)
 
-This is a very minimal start to PHP 7 conversion of my standard library that
+This is a very minimal start to PHP 7 conversion of my "keep it simple" library that
 I use with my own PHP projects. My goal was not to actually re-write a library
 of functions that no one uses, but rather to learn about all the PHP tooling
 that has come around since the original package was created. Some of my goals
